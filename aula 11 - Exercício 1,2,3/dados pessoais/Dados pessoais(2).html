@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados pessoais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       <h1>Verificar seus dados</h1>
+    </header>
+
+    <section>
+       <div>
+        Coloque seu ano de nascimento
+        <input type="number" name="t" id="anoDenascimento">
+       </div>
+       <div>
+          Qual seu sexo:<input type="radio" name="radsex" id="masc">
+          <label for="radsex">Masculino</label>
+          <input type="radio" name="radsex" id="femi">
+          <label for="radsex">feminino</label>
+       </div>
+       <div>
+         <input type="button" value="Verificar" id="but" onclick="enviar()">
+       </div>
+       <div id="pee"></div>
+       <div>
+         <img id="picture" src="" alt="">
+       </div>
+    </section>
+
+    <footer>
+       &copy;Pedro Otávio
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+section{
+    background: white;
+    width:200px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font: normal 15pt arial;
+    box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.471);
+    
+}
+body{
+    background: rgb(118, 197, 211);
+}
+header{
+    text-align: center;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.351);
+}
+#barra{
+  font-weight: bold;
+  tex
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    
+}
+#botao{
+   border-radius: 5px;
+   
+}
+#numero{
+    margin: 10px;
+   
+}

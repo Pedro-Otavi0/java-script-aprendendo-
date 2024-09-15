@@ -1,0 +1,20 @@
+header{
+  text-align: center;
+}
+section{
+  background: white;
+  width: 405px;
+  margin: auto;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.507);
+  border-radius: 10px;padding: 5px;
+}
+footer{
+  text-align: center;
+  padding: 20px;
+}
+body{
+    background: rgb(46, 132, 246);
+}
+#d{
+    margin: 10px;
+}

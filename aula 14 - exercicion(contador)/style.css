@@ -1,0 +1,25 @@
+header{
+  text-align: center;
+  font: normal 20pt arial;
+}
+section{
+ text-align: center;
+ padding: 10px;
+ background: rgba(255, 255, 255, 0.732);
+ width: 300px;
+ margin: auto;
+ border-radius: 10px;
+ font:normal 15pt arial;
+ box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.132);
+}
+input{
+    margin: 10px;
+}
+footer{
+ text-align: center;
+ padding: 10px
+ 
+}
+body{
+  background: rgb(133, 201, 224);
+}

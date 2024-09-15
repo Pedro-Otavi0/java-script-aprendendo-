@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificar velocidade</title>
+</head>
+<body>
+    <h1>Coloque sua velocidade</h1>
+    
+    Sua velocidade era <input type="number" name="kmhh1" id="kmhh"> km/h
+    <input type="button" value="Verificar" onclick="aper()" >
+    <div id="res"></div>
+    <script>
+
+        function aper(){
+        var tex = window.document.querySelector('input#kmhh')
+        var vel = Number(tex.value)
+        
+       window.document.getElementById("res").innerHTML = `Sua  velocidade é ${vel}` 
+        if (vel > 60){
+            window.document.getElementById("res").innerHTML = `Você ultrapassou o limite de velocidade e recebeu uma multa`
+        }
+        }
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício</title>
+    <style>
+        input{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body >
+    <h1>Somando dois numeros</h1>
+    <input type="number" name="t1" id="tex1"> +
+    <input type="number" name="t2" id="tex2">  =
+    <br>
+    <input type="button" value="somar" onclick="apertei()">
+    <div id="teste"></div>
+
+    <script>
+
+        function apertei(){
+       var t1 = window.document.getElementById('tex1')
+       var t2 = window.document.getElementById('tex2')
+       var n1 = Number.parseInt(t1.value)
+       var n2 = Number.parseInt(t2.value)
+       var soma = n1+n2
+       window.document.getElementById('teste').innerHTML = `Aqui seu numero: ${soma}`
+
+        }
+        
+    </script>
+</body>
+</html>
